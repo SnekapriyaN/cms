@@ -1,0 +1,91 @@
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+.header{
+    color:  black;   
+    padding-top: 11px;; 
+    padding-left: 340px;
+    font-weight: bold;
+    font-size: 23px;
+}
+.mid-container{
+    background-color: antiquewhite;
+    margin-top: 60px;
+    margin-left: 780px;
+    padding-left: 50px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+#pickup{
+    width: 350px;
+    height:35px;
+}
+#drop{
+    width: 350px;
+    height:35px;
+}
+#date{
+    width: 170px;
+    height:35px;
+    
+}
+#time{
+    width: 170px;
+    height:35px;
+}
+#passenger{
+    width: 350px;
+    height:35px;
+}
+#search{
+    width: 350px;
+    height: 33px;
+    background-color: #04AA6D;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+}
